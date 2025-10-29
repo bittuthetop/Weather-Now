@@ -1,16 +1,75 @@
-# React + Vite
+# 🌤️ Weather Now
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Weather Now** is a simple and modern weather web app built using **React + Vite**.  
+It allows users to check real-time weather information for any city around the world.  
+The app uses the **Open-Meteo API**, which requires no authentication or API key.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🌍 Search weather by city name  
+- 🌡️ Displays current temperature, humidity, and wind speed  
+- ☁️ Shows weather condition (e.g., clear sky, rain, snow)  
+- 💧 Displays precipitation probability and “feels like” temperature  
+- 🧭 Auto-fetches latitude and longitude using Open-Meteo’s Geocoding API  
+- ⚡ Real-time weather updates without page reload  
+- 🖥️ Fully responsive and modern UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React (Vite)
+- **Styling:** CSS
+- **APIs Used:**
+  - [Open-Meteo Geocoding API](https://open-meteo.com/en/docs/geocoding-api)
+  - [Open-Meteo Weather API](https://open-meteo.com/en/docs)
+
+---
+
+## ⚙️ Installation and Setup
+
+Follow these steps to run the project locally 👇
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/weather-now.git
+
+2. **Navigate to the project folder**
+   ```bash
+   cd weather-now
+3. **Install dependencies**
+   ```bash
+   npm install
+4. **Start the development server**
+   ```bash
+   npm run dev
+
+## 💡 How It Works
+
+1. **User enters a city name** in the input box.  
+2. The app **fetches latitude and longitude** using the **Open-Meteo Geocoding API**.  
+3. Then it **fetches the current weather details** — temperature, humidity, wind speed, precipitation, etc.  
+4. The app **displays the results dynamically** without reloading the page.
+
+
+
+
+
+## 📸 UI Preview
+
+![Home Page](./public/home.png)
+![Result Page](./public/result.png)
+
+## 🌐 Live Demo
+
+🔗 **Live Project:** [https://yv32td-5173.csb.app/](https://yv32td-5173.csb.app/)
+
+
+
+
+
+
+
+
