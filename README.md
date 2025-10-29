@@ -59,8 +59,8 @@ Follow these steps to run the project locally 👇
 
 ## 📸 UI Preview
 
-![Home Page](./public/home.png)
-![Result Page](./public/result.png)
+![Home Page](./public/Home.png)
+![Result Page](./public/Result.png)
 
 ## 🌐 Live Demo
 
